@@ -1,0 +1,65 @@
+[33mcommit 606a98f4be71c78d4451a1f115793c305a93b941[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Gustav Mattsén <mattsen03@gmail.com>
+Date:   Mon Oct 27 07:55:13 2025 +0100
+
+    added css styling
+
+[33mcommit 20a3b8b69a18b7687c218711323d723bf6433a37[m
+Author: Gustav Mattsén <mattsen03@gmail.com>
+Date:   Fri Oct 24 18:17:55 2025 +0200
+
+    updated badges + action buttons to fit figure
+
+[33mcommit 5705762a5561c218b95d0e1dd696c45188c69c62[m
+Author: Gustav Mattsén <mattsen03@gmail.com>
+Date:   Fri Oct 24 13:51:08 2025 +0200
+
+    added badges and buttons
+
+[33mcommit e214f379d55e2d6a53177922e1d4a5594c131611[m
+Author: Gustav Mattsén <mattsen03@gmail.com>
+Date:   Thu Oct 23 18:24:26 2025 +0200
+
+    formatted
+
+[33mcommit fded83ecab0162715db85615ab0568f71742fb55[m
+Author: Gustav Mattsén <mattsen03@gmail.com>
+Date:   Thu Oct 23 18:17:27 2025 +0200
+
+    added description
+
+[33mcommit e5ef895cfb8da657e7dc4ac407ddb7bd7f556323[m
+Author: Gustav Mattsén <mattsen03@gmail.com>
+Date:   Thu Oct 23 17:38:05 2025 +0200
+
+    started the example todo
+
+[33mcommit 9766d1788e5f417e0db8dd3cd00c25fbc7d83c3a[m
+Author: Gustav Mattsén <mattsen03@gmail.com>
+Date:   Thu Oct 23 14:34:41 2025 +0200
+
+    added attachment button
+
+[33mcommit 6321d4824315a5f32b09eb97253dad156f7d0189[m
+Author: Gustav Mattsén <mattsen03@gmail.com>
+Date:   Thu Oct 23 14:04:23 2025 +0200
+
+    Updated to fit project example
+
+[33mcommit d36922dfebc47b4db3368bab07d7840f811e165d[m
+Author: Gustav Mattsén <mattsen03@gmail.com>
+Date:   Thu Oct 23 13:59:10 2025 +0200
+
+    Example task added
+
+[33mcommit b94449f7fa996aa80ccc30b7435ad929c702f3d9[m
+Author: Gustav Mattsén <mattsen03@gmail.com>
+Date:   Thu Oct 23 12:36:49 2025 +0200
+
+    Added header and button
+
+[33mcommit 6f3f69d6a791766c56526071b0889fafce0b27dc[m
+Author: Gustav Mattsén <mattsen03@gmail.com>
+Date:   Thu Oct 23 11:05:12 2025 +0200
+
+    init commit
