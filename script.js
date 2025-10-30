@@ -24,4 +24,19 @@ form.addEventListener("submit", function (event) {
           : personSelect.value,
       createdDate: new Date().toISOString().split("T")[0],
     };
-  });
+
+     // Only add if the title is not empty
+  if (newTodo.title.trim() === "") {
+    alert("Please enter a title for your task!");
+    return;
+  }
+
+  // Add the new todo to the list
+  todos.push(newTodo);
+
+  // Update what we see on the page
+  showTodos();
+
+  // Clear the form
+  form.reset();
+});
