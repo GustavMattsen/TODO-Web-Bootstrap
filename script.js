@@ -39,4 +39,37 @@ form.addEventListener("submit", function (event) {
 
   // Clear the form
   form.reset();
+
+  // Show all todos
+function showTodos() {
+  // Clear what is already there
+  todoList.innerHTML = "";
+
+  // Loop through the list
+  for (let i = 0; i < todos.length; i++) {
+    const todo = todos[i];
+
+    // Make a container div
+    const item = document.createElement("div");
+    item.className = "border rounded p-3 mb-3";
+
+    // Create inner HTML
+    item.innerHTML =
+      '<div class="d-flex justify-content-between align-items-center mb-2">' +
+      "<h5 class='mb-0 fw-semibold'>" + todo.title + "</h5>" +
+      "<small class='text-muted'>Created: " + todo.createdDate + "</small>" +
+      "</div>" +
+      "<p class='text-muted mb-2'>" + todo.description + "</p>" +
+      "<div class='mb-2'>" +
+      "<span class='badge bg-light text-dark border me-2'>" +
+      "<i class='bi bi-calendar-date me-1'></i> Due: " + todo.dueDate +
+      "</span>" +
+      (todo.person && todo.person !== "-- Select Person (Optional) --"
+        ? "<span class='badge bg-primary'><i class='bi bi-person me-1'></i> " + todo.person + "</span>"
+        : "") +
+      "</div>" +
+      "<div class='text-end'>" +
+      "<button class='btn btn-sm btn-outline-success me-1' data-index='" + i + "'>Done</button>" +
+      "<button class='btn btn-sm btn-outline-danger' data-index='" + i + "'>Delete</button>" +
+      "</div>";
 });
