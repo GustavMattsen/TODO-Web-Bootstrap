@@ -39,8 +39,9 @@ form.addEventListener("submit", function (event) {
 
   // Clear the form
   form.reset();
+});
 
-  // Show all todos
+// Show all todos
 function showTodos() {
   // Clear what is already there
   todoList.innerHTML = "";
@@ -72,4 +73,29 @@ function showTodos() {
       "<button class='btn btn-sm btn-outline-success me-1' data-index='" + i + "'>Done</button>" +
       "<button class='btn btn-sm btn-outline-danger' data-index='" + i + "'>Delete</button>" +
       "</div>";
-});
+
+      // Add event listeners for buttons
+    const buttons = item.querySelectorAll("button");
+    buttons[0].addEventListener("click", function () {
+      markDone(i);
+    });
+    buttons[1].addEventListener("click", function () {
+      deleteTodo(i);
+    });
+
+    // Add it to the list
+    todoList.appendChild(item);
+  }
+}
+
+// Delete a todo
+function deleteTodo(index) {
+  todos.splice(index, 1);
+  showTodos();
+}
+
+// Mark as done
+function markDone(index) {
+  todos[index].title = "✅ " + todos[index].title;
+  showTodos();
+}
